@@ -35,7 +35,6 @@ D:\Proyectos\API_TODO\obj\Debug\net7.0\API_TODO.AssemblyInfo.cs
 D:\Proyectos\API_TODO\obj\Debug\net7.0\API_TODO.csproj.CoreCompileInputs.cache
 D:\Proyectos\API_TODO\obj\Debug\net7.0\API_TODO.MvcApplicationPartsAssemblyInfo.cs
 D:\Proyectos\API_TODO\obj\Debug\net7.0\API_TODO.MvcApplicationPartsAssemblyInfo.cache
-D:\Proyectos\API_TODO\obj\Debug\net7.0\API_TODO.sourcelink.json
 D:\Proyectos\API_TODO\obj\Debug\net7.0\staticwebassets.build.json
 D:\Proyectos\API_TODO\obj\Debug\net7.0\staticwebassets.development.json
 D:\Proyectos\API_TODO\obj\Debug\net7.0\staticwebassets\msbuild.API_TODO.Microsoft.AspNetCore.StaticWebAssets.props
