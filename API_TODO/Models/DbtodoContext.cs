@@ -21,7 +21,9 @@ public partial class DbtodoContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) { }
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseNpgsql("Server=127.0.0.1;Port=5432;Database=dbtodo;User id=postgres;Password=luciano");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -36,7 +38,9 @@ public partial class DbtodoContext : DbContext
             entity.Property(e => e.Id)
                 .HasDefaultValueSql("gen_random_uuid()")
                 .HasColumnName("id");
-            entity.Property(e => e.Date).HasColumnName("date");
+            entity.Property(e => e.Dateregister)
+                .HasDefaultValueSql("now()")
+                .HasColumnName("dateregister");
             entity.Property(e => e.Deadline).HasColumnName("deadline");
             entity.Property(e => e.Description).HasColumnName("description");
             entity.Property(e => e.Typeid).HasColumnName("typeid");

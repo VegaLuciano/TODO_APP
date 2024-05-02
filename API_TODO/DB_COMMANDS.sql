@@ -14,10 +14,10 @@ INSERT INTO TypeTask (name) VALUES
     ('no rush'),
     ('urgent');
 	
- CREATE TABLE Task (
+CREATE TABLE Task (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     userId INTEGER,
-    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    dateRegister TIMESTAMP DEFAULT now(),
     deadline DATE,
     typeId INTEGER,
     description TEXT,

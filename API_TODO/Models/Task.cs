@@ -9,13 +9,13 @@ public partial class Task
 
     public int? Userid { get; set; }
 
-    public DateOnly? Date { get; set; }
-
     public DateOnly? Deadline { get; set; }
 
     public int? Typeid { get; set; }
 
     public string? Description { get; set; }
+
+    public DateTime? Dateregister { get; set; }
 
     public virtual Typetask? Type { get; set; }
 
