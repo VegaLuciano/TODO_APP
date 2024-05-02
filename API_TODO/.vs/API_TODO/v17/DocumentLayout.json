@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Proyectos\\API_TODO\\API_TODO\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|d:\\proyectos\\api_todo\\api_todo\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|d:\\proyectos\\api_todo\\api_todo\\service\\autorizacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:service\\autorizacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|d:\\proyectos\\api_todo\\api_todo\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|d:\\proyectos\\api_todo\\api_todo\\db_commands.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:db_commands.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|d:\\proyectos\\api_todo\\api_todo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|d:\\proyectos\\api_todo\\api_todo\\db_commands.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:db_commands.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Proyectos\\API_TODO\\API_TODO\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Proyectos\\API_TODO\\API_TODO\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T00:43:57.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutorizacionService.cs",
+              "DocumentMoniker": "D:\\Proyectos\\API_TODO\\API_TODO\\Service\\AutorizacionService.cs",
+              "RelativeDocumentMoniker": "Service\\AutorizacionService.cs",
+              "ToolTip": "D:\\Proyectos\\API_TODO\\API_TODO\\Service\\AutorizacionService.cs",
+              "RelativeToolTip": "Service\\AutorizacionService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T00:43:37.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DB_COMMANDS.sql ",
+              "DocumentMoniker": "D:\\Proyectos\\API_TODO\\API_TODO\\DB_COMMANDS.sql",
+              "RelativeDocumentMoniker": "DB_COMMANDS.sql",
+              "ToolTip": "D:\\Proyectos\\API_TODO\\API_TODO\\DB_COMMANDS.sql",
+              "RelativeToolTip": "DB_COMMANDS.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-02T00:18:24.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Proyectos\\API_TODO\\API_TODO\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\Proyectos\\API_TODO\\API_TODO\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T00:10:38.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "D:\\Proyectos\\API_TODO\\API_TODO\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
+              "ToolTip": "D:\\Proyectos\\API_TODO\\API_TODO\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "Controllers\\TaskController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAiwE8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T00:09:13.18Z",
+              "EditorCaption": ""
             }
           ]
         },

@@ -23,11 +23,10 @@ namespace API_TODO.Controllers
 
 
 		[HttpGet]
-		[Route("List")]
+		[Route("ListTask")]
 		public async Task<IActionResult> List(int idUser)
 		{
-			var list = _context.Tasks.OrderByDescending(t => t.Date).ToList();
-
+			var list = await _context.Tasks.Where(t => t.Userid == idUser).OrderBy(t => t.Date).ToListAsync();
 			return Ok(list);
 		}
 
@@ -44,7 +43,7 @@ namespace API_TODO.Controllers
 				await _context.Tasks.AddAsync(task);
 				await _context.SaveChangesAsync();
 
-				return Ok();
+				return Ok($"Task added");
 			}
 			catch (DbUpdateException ex)
 			{

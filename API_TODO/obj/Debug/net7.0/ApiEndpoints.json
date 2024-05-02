@@ -34,7 +34,7 @@
   {
     "ContainingType": "API_TODO.Controllers.TaskController",
     "Method": "List",
-    "RelativePath": "api/Task/List",
+    "RelativePath": "api/Task/ListTask",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

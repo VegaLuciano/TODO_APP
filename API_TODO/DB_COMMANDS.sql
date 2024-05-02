@@ -17,7 +17,7 @@ INSERT INTO TypeTask (name) VALUES
  CREATE TABLE Task (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     userId INTEGER,
-    date DATE,
+    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     deadline DATE,
     typeId INTEGER,
     description TEXT,
