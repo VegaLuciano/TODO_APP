@@ -26,8 +26,20 @@ namespace API_TODO.Controllers
 		[Route("ListTask")]
 		public async Task<IActionResult> List(int idUser)
 		{
-			var list = await _context.Tasks.Where(t => t.Userid == idUser).OrderBy(t => t.Date).ToListAsync();
-			return Ok(list);
+			if (idUser == null || idUser == 0 )
+			{
+				// Si no se proporciona ningún valor para idUser, devolver un BadRequest
+				return BadRequest("User ID is required.");
+			}
+			var list = await _context.Tasks.Where(t => t.Userid == idUser).OrderBy(t => t.Dateregister).ToListAsync();
+
+			if (list.Any())		
+				return Ok(list);		
+			else if (!await _context.Users.AnyAsync(u => u.Id == idUser))		
+				return NotFound("User not found.");
+			else		
+				return NotFound("No tasks found for this user."); ;
+			
 		}
 
 		[HttpPost]
@@ -43,11 +55,11 @@ namespace API_TODO.Controllers
 				await _context.Tasks.AddAsync(task);
 				await _context.SaveChangesAsync();
 
-				return Ok($"Task added");
+				return StatusCode(StatusCodes.Status200OK, "Task added");
 			}
 			catch (DbUpdateException ex)
 			{
-				return StatusCode(StatusCodes.Status500InternalServerError, "Error at add task: " + ex.Message);
+				return StatusCode(500, "Error at add task: " + ex.Message);
 			}
 		}
 
@@ -55,7 +67,7 @@ namespace API_TODO.Controllers
 		[Route("DeleteTask")]
 		public async Task<IActionResult> DeleteTask(string idTask)
 		{
-			// Validar la entrada idTask
+	
 			if (!Guid.TryParse(idTask, out Guid taskId))
 			{
 				return BadRequest("Invalid task ID format");
@@ -84,6 +96,28 @@ namespace API_TODO.Controllers
 				return StatusCode(500, "An error occurred while deleting the task");
 			}
 		}
+		[HttpPut]
+		[Route("UpdateTask")]
+		public async Task<IActionResult> UpdateTask([FromBody] Models.Task task)
+		{
 
+			if (!ModelState.IsValid)
+			{
+				return BadRequest(ModelState);
+			}
+
+			try
+			{
+				_context.Tasks.Update(task);
+				await _context.SaveChangesAsync();
+
+				// Registrar la acción en los logs
+				return Ok("Task updated");
+			}
+			catch (Exception ex)
+			{
+				return StatusCode(500, $"An error occurred while updating the task {ex.Message}");
+			}
+		}
 	}
 }

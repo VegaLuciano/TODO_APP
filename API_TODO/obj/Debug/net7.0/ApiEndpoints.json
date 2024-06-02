@@ -48,6 +48,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "API_TODO.Controllers.TaskController",
+    "Method": "UpdateTask",
+    "RelativePath": "api/Task/UpdateTask",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "task",
+        "Type": "API_TODO.Models.Task",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "API_TODO.Controllers.UserController",
     "Method": "AddUser",
     "RelativePath": "api/User/AddUser",

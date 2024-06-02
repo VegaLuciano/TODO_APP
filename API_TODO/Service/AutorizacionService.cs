@@ -39,7 +39,7 @@ namespace API_TODO.Service
 			var tokenDescriptor = new SecurityTokenDescriptor
 			{
 				Subject = claims,
-				Expires = DateTime.UtcNow.AddMinutes(10),
+				Expires = DateTime.UtcNow.AddDays(1),
 				SigningCredentials = credencialesToken
 			};
 

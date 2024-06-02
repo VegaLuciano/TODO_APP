@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "D:\\Proyectos\\API_TODO\\API_TODO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|d:\\proyectos\\api_todo\\api_todo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|d:\\proyectos\\api_todo\\api_todo\\models\\typetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:models\\typetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|d:\\proyectos\\api_todo\\api_todo\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|d:\\proyectos\\api_todo\\api_todo\\models\\dbtodocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:models\\dbtodocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|d:\\proyectos\\api_todo\\api_todo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|D:\\Proyectos\\API_TODO\\API_TODO\\db_commands.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:db_commands.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|d:\\proyectos\\api_todo\\api_todo\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|D:\\Proyectos\\API_TODO\\API_TODO\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|D:\\Proyectos\\API_TODO\\API_TODO\\service\\autorizacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,12 +19,28 @@
       "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|D:\\Proyectos\\API_TODO\\API_TODO\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|D:\\Proyectos\\API_TODO\\API_TODO\\models\\typetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:models\\typetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|d:\\proyectos\\api_todo\\api_todo\\db_commands.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:db_commands.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|D:\\Proyectos\\API_TODO\\API_TODO\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|D:\\Proyectos\\API_TODO\\API_TODO\\models\\dbtodocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:models\\dbtodocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|D:\\Proyectos\\API_TODO\\API_TODO\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|D:\\Proyectos\\API_TODO\\API_TODO\\db_commands.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:db_commands.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|D:\\Proyectos\\API_TODO\\API_TODO\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A7DD094-5405-4F47-8F38-903889F9A470}|API_TODO.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,76 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Proyectos\\API_TODO\\API_TODO\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "D:\\Proyectos\\API_TODO\\API_TODO\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T14:54:45.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Typetask.cs",
-              "DocumentMoniker": "D:\\Proyectos\\API_TODO\\API_TODO\\Models\\Typetask.cs",
-              "RelativeDocumentMoniker": "Models\\Typetask.cs",
-              "ToolTip": "D:\\Proyectos\\API_TODO\\API_TODO\\Models\\Typetask.cs",
-              "RelativeToolTip": "Models\\Typetask.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T14:54:44.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Task.cs",
-              "DocumentMoniker": "D:\\Proyectos\\API_TODO\\API_TODO\\Models\\Task.cs",
-              "RelativeDocumentMoniker": "Models\\Task.cs",
-              "ToolTip": "D:\\Proyectos\\API_TODO\\API_TODO\\Models\\Task.cs",
-              "RelativeToolTip": "Models\\Task.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T14:54:30.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DbtodoContext.cs",
-              "DocumentMoniker": "D:\\Proyectos\\API_TODO\\API_TODO\\Models\\DbtodoContext.cs",
-              "RelativeDocumentMoniker": "Models\\DbtodoContext.cs",
-              "ToolTip": "D:\\Proyectos\\API_TODO\\API_TODO\\Models\\DbtodoContext.cs",
-              "RelativeToolTip": "Models\\DbtodoContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T14:54:24.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Proyectos\\API_TODO\\API_TODO\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Proyectos\\API_TODO\\API_TODO\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-02T14:50:25.31Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -139,51 +70,114 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "AutorizacionService.cs",
               "DocumentMoniker": "D:\\Proyectos\\API_TODO\\API_TODO\\Service\\AutorizacionService.cs",
               "RelativeDocumentMoniker": "Service\\AutorizacionService.cs",
               "ToolTip": "D:\\Proyectos\\API_TODO\\API_TODO\\Service\\AutorizacionService.cs",
               "RelativeToolTip": "Service\\AutorizacionService.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwCYAAAA0AAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBwAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T00:43:37.827Z"
+              "WhenOpened": "2024-05-02T00:43:37.827Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "DB_COMMANDS.sql ",
               "DocumentMoniker": "D:\\Proyectos\\API_TODO\\API_TODO\\DB_COMMANDS.sql",
               "RelativeDocumentMoniker": "DB_COMMANDS.sql",
               "ToolTip": "D:\\Proyectos\\API_TODO\\API_TODO\\DB_COMMANDS.sql",
               "RelativeToolTip": "DB_COMMANDS.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-02T00:18:24.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T00:18:24.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Proyectos\\API_TODO\\API_TODO\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "D:\\Proyectos\\API_TODO\\API_TODO\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T00:10:38.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "TaskController.cs",
               "DocumentMoniker": "D:\\Proyectos\\API_TODO\\API_TODO\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
               "ToolTip": "D:\\Proyectos\\API_TODO\\API_TODO\\Controllers\\TaskController.cs",
               "RelativeToolTip": "Controllers\\TaskController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAvAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAADwvxgAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T00:09:13.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Proyectos\\API_TODO\\API_TODO\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\Proyectos\\API_TODO\\API_TODO\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T14:54:45.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Typetask.cs",
+              "DocumentMoniker": "D:\\Proyectos\\API_TODO\\API_TODO\\Models\\Typetask.cs",
+              "RelativeDocumentMoniker": "Models\\Typetask.cs",
+              "ToolTip": "D:\\Proyectos\\API_TODO\\API_TODO\\Models\\Typetask.cs",
+              "RelativeToolTip": "Models\\Typetask.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T14:54:44.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Task.cs",
+              "DocumentMoniker": "D:\\Proyectos\\API_TODO\\API_TODO\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "Models\\Task.cs",
+              "ToolTip": "D:\\Proyectos\\API_TODO\\API_TODO\\Models\\Task.cs",
+              "RelativeToolTip": "Models\\Task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T14:54:30.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Proyectos\\API_TODO\\API_TODO\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Proyectos\\API_TODO\\API_TODO\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-02T14:50:25.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DbtodoContext.cs",
+              "DocumentMoniker": "D:\\Proyectos\\API_TODO\\API_TODO\\Models\\DbtodoContext.cs",
+              "RelativeDocumentMoniker": "Models\\DbtodoContext.cs",
+              "ToolTip": "D:\\Proyectos\\API_TODO\\API_TODO\\Models\\DbtodoContext.cs",
+              "RelativeToolTip": "Models\\DbtodoContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T14:54:24.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Proyectos\\API_TODO\\API_TODO\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\Proyectos\\API_TODO\\API_TODO\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T00:10:38.908Z",
               "EditorCaption": ""
             }
           ]
